@@ -1,0 +1,8 @@
+name: NearBomb
+version: ${project.version}
+main: nearbomb.nearbomb.NearBomb
+api-version: 1.16
+prefix: NearBomb
+authors: [ OtterBK ]
+description: Blow up nearby entity, items
+website: https://github.com/OtterBK
