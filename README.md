@@ -24,7 +24,7 @@
 
 <div align=center>
 
-#####  👉 [플러그인 다운](https://github.com/OtterBK/Nearbomb/plugin)
+#####  👉 [플러그인 다운](https://github.com/OtterBK/Nearbomb/tree/master/plugin)
 
 </div>
 
