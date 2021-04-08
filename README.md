@@ -24,7 +24,7 @@
 
 <div align=center>
 
-#####  👉 [플러그인 다운](https://drive.google.com/file/d/1LfdYvDYgt5FzA1zsWZ6oAD8yvxwUgZoW/view?usp=sharing)
+#####  👉 [플러그인 다운](https://github.com/OtterBK/Nearbomb/plugin)
 
 </div>
 
