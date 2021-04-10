@@ -58,7 +58,15 @@ public class Bomb {
 //                    entity.getWorld().spawnParticle(Particle.EXPLOSION_NORMAL, entity.getLocation(), 1, 0.0F, 0.0f, 0.0f, 0.0f); //폭파 효과
 //                    entity.getWorld().playSound(entity.getLocation(), Sound.ENTITY_GENERIC_EXPLODE, 1.0f, 1.0f);
 
-                    entity.getWorld().createExplosion(entity.getLocation(), 1.5f);
+                    entity.getWorld().createExplosion(entity.getLocation(), 2.5f);
+                    for(Entity deathEntity : entity.getNearbyEntities(3,3,3)){
+                        if(deathEntity instanceof LivingEntity){
+                            LivingEntity tmpLiving = (LivingEntity) deathEntity;
+                            tmpLiving.damage(1000000);
+                        } else {
+                            deathEntity.remove();
+                        }
+                    }
 
                     hologram.delete();
 
